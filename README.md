@@ -74,6 +74,7 @@ Tested under python3.
   - tensorboardX  — for logging the losses in Tensorboard
 - An NVIDAI GPU and CUDA 8.0 or higher. Some operations only have gpu implementation.
 - **NOTICE**: different versions of Pytorch package have different memory usages.
+- **NOTICE**: GCC >= 4.9 and above on Linux ( According to [this note](https://pytorch.org/tutorials/advanced/cpp_extension.html#using-your-extension) )
 
 ### Compilation
 
